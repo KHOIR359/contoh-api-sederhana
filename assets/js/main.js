@@ -32,7 +32,7 @@ function fungsiUtama(json) {
         list += `</ol>`;
 
         // mengisi <li> ke dalam <ol>
-        dataList.innerHTML += list;
+        dataList.innerHTML = list + dataList.innerHTML;
     }
 }
 
